@@ -1,0 +1,28 @@
+{
+  "context": "client",
+  "identifier": "com.stuart98.po.mappack",
+  "display_name": "Planetary Obliteration Map Pack",
+  "description": "Map Pack for Planetary Obliteration Tournaments",
+  "author": "Stuart98",
+  "version": "1.0",
+  "build": "94684",
+  "date": "2016/11/14",
+  "signature": "not yet implemented",
+  "category": [
+	  "map",
+	  "pack",
+	  "maps",
+	  "system",
+	  "planets",
+	  "planet",
+	  "systems"
+    ],
+    "load_planet": [
+        "coui://ui/mods/pomappack/maplist.js"
+    ],
+	"priority": 100,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ]
+}
